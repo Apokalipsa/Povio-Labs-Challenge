@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Messages Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/messages-style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <nav>
+            <div class="navigation">
+                <div class="brand">
+                    <a href="index.html"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li data-type="explore-icon">
+                            <a href="index.html">
+                                <span>Explore</span>
+                            </a>
+                        </li>
+                        <li data-type="trips-icon">
+                            <a href="index.html">Trips</a>
+                        </li>
+                        <li>
+                            <span id="numMsg">2</span>
+                            <a href="messages.html"><span class="active">Messages</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-user-info">
+                <h2>John</h2>
+                <img src="img-assets/jpg/userImg.jpg" alt="John" />
+            </div>
+        </nav>
+        <div class="container clearfix">
+            <div class="people-list" id="people-list">
+                <div class="search">
+                    <input type="text" placeholder="Search for contacts" />
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <ul class="list">
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/user.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Vincent Porter</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle online"></i>
+                                <p> online</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/connection_1.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Aiden Chavez</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle offline"></i>
+                                <p> left 7 mins ago</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/connection_2.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Michael Thomas</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle online"></i>
+                                <p> online</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/connection_3.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Erica Hughes</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle online"></i>
+                                <p> online</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/connection_4.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Gloria Johnston</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle online"></i>
+                                <p> online</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/user.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Tracy Carpenter</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle offline"></i>
+                                <p>left 30 mins ago</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/connection_2.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Christian Kelly</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle offline"></i>
+                                <p>left 10 hours ago</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <img src="img-assets/jpg/connection_4.jpg" alt="avatar" />
+                        <div class="about">
+                            <div class="name">
+                                <p>Monica Ward</p>
+                            </div>
+                            <div class="status">
+                                <i class="fa fa-circle online"></i>
+                                <p> online</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="chat">
+                <div class="chat-header clearfix">
+                    <img src="img-assets/jpg/connection_3.jpg" alt="Stefany" />
+                    <div class="chat-about">
+                        <div class="chat-with">
+                            <p>Chat with Erica</p>
+                        </div>
+                        <div class="chat-num-messages">
+                            <p>already 1000 messages</p>
+                        </div>
+                    </div>
+                    <i class="fa fa-star"></i>
+                </div>
+                <!-- end chat-header -->
+                <div class="chat-history">
+                    <ul>
+                        <li class="clearfix">
+                            <div class="message-data align-right">
+                                <span class="message-data-time"><p>10:10 AM, Today</p></span> &nbsp; &nbsp;
+                                <span class="message-data-name"><p>Michael</p></span> <i class="fa fa-circle me"></i>
+                            </div>
+                            <div class="message other-message float-right">
+                                <p>Hi Erica, how are you? How is the project coming along?</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message-data">
+                                <span class="message-data-name"><i class="fa fa-circle online"></i> <p>Erica</p></span>
+                                <span class="message-data-time"><p>10:12 AM, Today</p></span>
+                            </div>
+                            <div class="message my-message">
+                                <p> Are we meeting today? Project has been already finished and I have results to show you.</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="message-data align-right">
+                                <span class="message-data-time"><p>10:14 AM, Today</p></span> &nbsp; &nbsp;
+                                <span class="message-data-name"><p>Michael</p></span> <i class="fa fa-circle me"></i>
+                            </div>
+                            <div class="message other-message float-right">
+                                <p>Well I am not sure. The rest of the team is not here yet. Maybe in an hour or so? Have you faced any problems at the last phase of the project?</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message-data">
+                                <span class="message-data-name"><i class="fa fa-circle online"></i> <p>Erica</p></span>
+                                <span class="message-data-time"><p>10:20 AM, Today</p></span>
+                            </div>
+                            <div class="message my-message">
+                                <p>Actually it was very challenging. I'm very excited to show this to our team.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message-data">
+                                <span class="message-data-name"><i class="fa fa-circle online"></i>  <p>Erica</p></span>
+                                <span class="message-data-time"><p>10:31 AM, Today</p></span>
+                            </div>
+                            <i class="fa fa-circle online"></i>
+                            <i class="fa fa-circle online" style="color: #AED2A6"></i>
+                            <i class="fa fa-circle online" style="color:#DAE9DA"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end chat-history -->
+                <div class="chat-message clearfix">
+                    <textarea name="mssaege-to-send" id="message-to-send" placeholder="Type your message" rows="3"></textarea>
+                    <i class="fa fa-chain" style="color:#f38a1a"></i>&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-smile-o" style="color:#f38a1a"></i>
+                    <button>Send</button>
+                </div>
+                <!-- end chat-message -->
+            </div>
+            <!-- end chat -->
+        </div>
+    </div>
+    <!-- end container -->
+    <script id="message-template" type="text/x-handlebars-template">
+        <li class="clearfix">
+            <div class="message-data align-right">
+                <span class="message-data-time"><p>{{time}}, Today</p></span> &nbsp; &nbsp;
+                <span class="message-data-name"><p>Michael</p></span> <i class="fa fa-circle me"></i>
+            </div>
+            <div class="message other-message float-right">
+                <p> {{messageOutput}}</p>
+            </div>
+        </li>
+    </script>
+    <script id="message-response-template" type="text/x-handlebars-template">
+        <li>
+            <div class="message-data">
+                <span class="message-data-name"><i class="fa fa-circle online"></i> <p>Erica</p></span>
+                <span class="message-data-time"><p>{{time}}, Today</p></span>
+            </div>
+            <div class="message my-message">
+                <p>{{response}}</p>
+            </div>
+        </li>
+    </script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js'></script>
+    <script src="js/messages.js"></script>
+    <script src="js/messageCounter.js"></script>
+</body>
+
+</html>

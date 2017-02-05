@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Povio Sample Project</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto" rel="stylesheet">
+	<!-- main stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- animate css stylesheet -->
+	<link rel="stylesheet" href="css/animate.css"></head>
+<body>
+	<!-- start main page container -->
+	<div class="main-container">
+
+		<!-- start main nav -->
+		<nav>
+			<div class="navigation">
+				<div class="brand">
+					<a href="index.html"></a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li data-type="explore-icon">
+							<a href="">
+								<span class="active">Explore</span>
+							</a>
+						</li>
+						<li data-type="trips-icon">
+							<a href="">Trips</a>
+						</li>
+						<li>
+							<span id="numMsg">2</span>
+							<a href="messages.html">Messages</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-user-info">
+				<h2>John</h2>
+				<img src="img-assets/jpg/userImg.jpg" alt="John" />
+			</div>
+		</nav>
+		<!-- end main nav -->
+
+		<!-- start left panel -->
+		<section class="main-panel ">
+
+			<header class="main-info">
+				<button class="btn-close"></button>
+				<button class="btn-connect">CONNECT</button>
+				<button class="btn-message">MESSAGE</button>
+				<div class="heading">
+					<h1>Michael, 29</h1>
+					<h3>San Francisco, California</h3>
+				</div>
+				<img src="img-assets/jpg/connection_2.jpg" alt="Michael" class="profile-img"/>
+			</header>
+
+			<div class="main-content">
+			<div class="icons">
+					<img src="img-assets/png/icon-house.png" class="icon-house" />
+					<img src="img-assets/png/icon-handshake.png " class="icon-handshake" />
+					<img src="img-assets/png/icon-medical.png" class="icon-medical" />
+				</div>
+				<div class="bio">
+					<h2>
+						I am an adventurous wanderer who likes meeting new people and getting better to know about interesting cultures.
+					</h2>
+				</div>
+
+				
+
+				<div class="sub-content">
+					<h3>
+						<span class="recomendations">MY TOP 3 RECOMMENDATIONS</span>
+					</h3>
+					<div class="icons-recomendations">
+						<img src="img-assets/png/icon-dine.png" class="icon-dine" />
+						<span class="first">Little Delhi - Indian Restaurant</span>
+						<img src="img-assets/png/icon-save.png" class="add-trip-icons" />
+						<span class="tooltip">add to trips</span>
+					</div>
+					<div class="icons-recomendations">
+						<img src="img-assets/png/icon-drink.png" class="icon-drink" />
+						<span class="second">Oceanic View Rooftop</span>
+						<img src="img-assets/png/icon-save.png" class="add-trip-icons" />
+						<span class="tooltip">add to trips</span>
+					</div>
+					<div class="icons-recomendations">
+						<img src="img-assets/png/icon-explore-active.png" class="icon-explore" />
+						<span class="third">Marshall’s Beach</span>
+						<img src="img-assets/png/icon-save.png" class="add-trip-icons" />
+						<span class="tooltip">add to trips</span>
+					</div>
+					<h3>
+						<span class="recomendations">CONNECTIONS</span>
+					</h3>
+					<div class="connection-profiles">
+						<ul>
+							<li>
+								<img src="img-assets/jpg/connection_3.jpg" class="connection-img" />
+								<p>Erica</p>
+							</li>
+							<li>
+								<img src="img-assets/jpg/user.jpg" class="connection-img" />
+								<p>Vincent</p>
+							</li>
+							<li>
+								<img src="img-assets/jpg/connection_1.jpg" class="connection-img" />
+								<p>Aiden</p>
+							</li>
+							<li>
+								<img src="img-assets/jpg/connection_4.jpg" class="connection-img" />
+								<p>Gloria</p>
+							</li>
+							<li>
+								<button class="connection-plus">+8</button>
+								<p class="connection-plus-p">View</p>
+							</li>
+						</ul>
+					</div>
+					<h3>
+						<span class="recomendations">INSTAGRAM FEED</span>
+					</h3>
+				</div>
+			</div>
+		</section>
+		<!-- end left panel -->
+
+		<!-- start of map section -->
+		<section class="map-section">
+			<div id="map"></div>
+			<div class="search-map">
+				<input type="text" value="" name="search" id="input-search" placeholder="Search for friends and places" autocomplete="off" />
+				<button type="button"></button>
+			</div>
+			<div class="map-dots">
+				<span class="orange-dot">1°</span>
+				<span class="blue-dot">2°</span>
+				<span class="purple-dot">3°</span>
+			</div>
+			<div class="pointer-map"></div>
+		</section>
+		<!-- end of map section -->
+
+	</div>
+	<!-- end main page container -->
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<!-- custom map js -->
+	<script src="js/map.js"></script>
+	<script src="js/messageCounter.js"></script>
+	<!-- google maps api -->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAFwtF9dN7tbnSdIgoa6SUrEje7oxb1ZX8"></script>
+</body>
+
+</html>
